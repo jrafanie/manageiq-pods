@@ -1,5 +1,5 @@
-ARG FROM_REPO=manageiq
-ARG FROM_TAG=latest
+ARG FROM_REPO=jrafanie
+ARG FROM_TAG=fasterer-liveness
 
 FROM ${FROM_REPO}/manageiq-base:${FROM_TAG} AS vddk
 
