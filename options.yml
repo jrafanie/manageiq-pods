@@ -4,4 +4,4 @@ repos:
   ref:             master
   manageiq:
     url:           https://github.com/jrafanie/manageiq.git
-    ref:           heartbeat_as_unix_time_to_avoid_parsing
+    ref:           master

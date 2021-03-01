@@ -1,5 +1,5 @@
 ARG FROM_REPO=jrafanie
-ARG FROM_TAG=fasterer-liveness
+ARG FROM_TAG=latest
 
 FROM ${FROM_REPO}/manageiq-base:${FROM_TAG}
 MAINTAINER ManageIQ https://manageiq.org

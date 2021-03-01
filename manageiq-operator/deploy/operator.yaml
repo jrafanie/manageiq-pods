@@ -15,7 +15,7 @@ spec:
       serviceAccountName: manageiq-operator
       containers:
         - name: manageiq-operator
-          image: docker.io/jrafanie/manageiq-operator:fasterer-liveness
+          image: docker.io/jrafanie/manageiq-operator:latest
           command:
           - manageiq-operator
           imagePullPolicy: Always

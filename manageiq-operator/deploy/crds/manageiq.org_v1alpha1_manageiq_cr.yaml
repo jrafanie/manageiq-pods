@@ -3,11 +3,11 @@ kind: ManageIQ
 metadata:
   name: miq
 spec:
-  applicationDomain: jrafanie-testing8
-  baseWorkerImage: jrafanie/manageiq-base-worker:fasterer-liveness
+  applicationDomain: jrafanie-testing
+  baseWorkerImage: jrafanie/manageiq-base-worker:latest
   orchestratorImageNamespace: jrafanie
-  orchestratorImageTag: fasterer-liveness
-  uiWorkerImage: jrafanie/manageiq-ui-worker:fasterer-liveness
-  webserverWorkerImage: jrafanie/manageiq-webserver-worker:fasterer-liveness
+  orchestratorImageTag: latest
+  uiWorkerImage: jrafanie/manageiq-ui-worker:latest
+  webserverWorkerImage: jrafanie/manageiq-webserver-worker:latest
   imagePullSecret: jrafanie
   enforceWorkerResourceConstraints: true
